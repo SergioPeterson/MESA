@@ -1,0 +1,78 @@
+/* *, body, html */
+/* for class use .__ and for id use #___ */
+* {
+	color: white;
+}
+
+body,
+html {
+	background: #b41b1b;
+}
+nav {
+	background: #b41b1b;
+	width: 100%;
+	height: 100%;
+}
+.section {
+	margin-bottom: 100px;
+}
+.group {
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/holder.jpg);
+}
+.zoomedMesa {
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/holder.jpg);
+}
+.innerText {
+	padding: 10%;
+	text-align: center;
+}
+.mesaVideo {
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/holder.jpg);
+}
+
+.row {
+	background-color: aliceblue;
+}
+.row {
+	background-color: rgba(0, 0, 0, 0);
+}
+.mesaVideo .row {
+	padding: 100px 80px;
+	text-align: center;
+}
+.mesaWinners .contain {
+	text-align: center;
+	margin: 0 50px 0 50px;
+	background-color: white;
+}
+.mesaWinners .contain h1 {
+	color: black;
+}
+.contain img {
+	padding: 10px;
+}
+.finalpic {
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/holder.jpg);
+}
+footer {
+	width: 100%;
+	height: 150px;
+	background-color: rgba(150, 0, 0, 0.8);
+}
+/* make each section into their corespding backgrounds */
