@@ -1,0 +1,36 @@
+* {
+	color: white;
+}
+
+body,
+html {
+	background: #b41b1b;
+}
+nav {
+	background: #b41b1b;
+	width: 100%;
+	height: 100%;
+}
+.section1 {
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/holder.jpg);
+	margin-bottom: 100px;
+}
+.empty {
+	background-color: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 300px;
+}
+.row {
+	background-color: rgba(0, 0, 0, 0);
+	text-align: center;
+}
+
+footer {
+	width: 100%;
+	height: 150px;
+	background-color: rgba(150, 0, 0, 0.8);
+}
