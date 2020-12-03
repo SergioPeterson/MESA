@@ -12,16 +12,44 @@ nav {
 	height: 100%;
 }
 
-.section1,
-.section2,
-.section3,
-.section4,
+.section1 {
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/MITImage1.jpg);
+	margin-bottom: 100px;
+}
+.section2 {
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/MITImage2.jpg);
+	margin-bottom: 100px;
+}
+.section3 {
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/MITImage3.jpg);
+	margin-bottom: 100px;
+}
+.section4 {
+	width: 100%;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/MITHacks.jpg);
+	margin-bottom: 100px;
+}
 .section5 {
 	width: 100%;
 	height: 750px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	background-image: url(../Img/holder.jpg);
+	background-image: url(../Img/MITImage5.jpg);
 	margin-bottom: 100px;
 }
 
