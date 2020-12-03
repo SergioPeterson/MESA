@@ -17,11 +17,20 @@ nav {
 	height: 750px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	background-image: url(../Img/holder.jpg);
+	background-image: url(../Img/LetterImage.jpg);
 	margin-bottom: 100px;
 }
 footer {
 	width: 100%;
-	height: 150px;
-	background-color: rgba(150, 0, 0, 0.8);
+	height: 100px;
+	background-color: rgba(90, 14, 14, 0.5);
+	display: flex;
+}
+footer p {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }

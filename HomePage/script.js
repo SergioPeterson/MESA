@@ -7,6 +7,8 @@ const gallery_images = [
     './Img/homepage_gallery_3.jpg'
 ]
 var pos = 0
+const start_scroll = '2484px';
+
 image.src = gallery_images[pos];
 function nextImg(){
     if(pos == gallery_images.length-1){
@@ -17,7 +19,6 @@ function nextImg(){
         image.src = gallery_images[pos]
     }
 }
-
 function prevImg(){
     if(pos == 0){
         pos = gallery_images.length - 1
@@ -27,6 +28,14 @@ function prevImg(){
         image.src = gallery_images[pos]
     }
 }
-
-next.addEventListener('click', nextImg)
-prev.addEventListener('click', prevImg)
+// 2484px 2300px <= x <= 2600px
+// function startScroll(){
+//     currentScoll = window.pageYOffset;
+//     while ((currentScoll - 100) >= 2300 || (currentScoll + 100) <= 2600) {
+//         setTimeout(1000);
+//         nextImg();
+//     }
+// }
+// next.addEventListener('click', nextImg)
+// prev.addEventListener('click', prevImg)
+// window.addEventListener('scroll', startScroll);
