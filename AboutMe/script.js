@@ -4,7 +4,9 @@ const image1 = document.querySelector('.Gallery_1');
 const gallery_images1 = [
     '../Img/Gallery1_1.jpg',
     '../Img/Gallery1_2.jpg',
-    '../Img/Gallery1_3.jpg'
+    '../Img/Gallery1_3.jpg',
+    '../Img/Gallery1_4.jpg',
+    '../Img/Gallery1_5.jpg'
 ]
 var pos1 = 0
 image1.src = gallery_images1[pos1];
