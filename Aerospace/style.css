@@ -11,23 +11,40 @@ nav {
 	width: 100%;
 	height: 100%;
 }
-.section1,
-.section2,
-.section3,
-.section4,
-.section5 {
+.section1 {
 	width: 100%;
 	height: 750px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	background-image: url(../Img/holder.jpg);
+	background-image: url(../Img/AeroImage1.jpg);
 	margin-bottom: 100px;
 }
 
-.section3,
-.section5 {
-	margin-top: 300px;
+.section2 {
+	width: 100%;
+	height: 900px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/AeroImage2.jpg);
+	margin-bottom: 30px;
 }
+.section3 {
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/AeroImage3.jpg);
+	margin-bottom: 100px;
+}
+.section4 {
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Img/AeroImage4.jpg);
+	margin-bottom: 30px;
+}
+
 .empty {
 	background-color: rgba(0, 0, 0, 0);
 	width: 100%;
@@ -37,9 +54,39 @@ nav {
 	background-color: rgba(0, 0, 0, 0);
 	text-align: center;
 }
+.section1 .col-6 {
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10%;
+}
+.section2_text,
+.section4_text {
+	background-color: rgba(0, 0, 0, 0);
+	text-align: center;
+	margin-bottom: 30px;
+}
+.section2_text .col-6,
+.section4_text .col-6 {
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10%;
+	padding: 30px;
+}
+.section2_text p,
+.section4_text p {
+	font-size: 110%;
+}
 
 footer {
 	width: 100%;
-	height: 150px;
-	background-color: rgba(150, 0, 0, 0.8);
+	height: 100px;
+	background-color: rgba(90, 14, 14, 0.5);
+	display: flex;
+}
+footer p {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
