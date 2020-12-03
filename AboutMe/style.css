@@ -31,7 +31,9 @@ nav {
 	justify-content: center;
 }
 .col-7 {
-	padding: 20px 80px;
+	padding: 20px 100px 20px 50px;
+	text-align: center;
+	font-size: 115%;
 }
 i {
 	padding: 10px;
@@ -44,6 +46,16 @@ i:hover {
 }
 footer {
 	width: 100%;
-	height: 150px;
-	background-color: rgba(150, 0, 0, 0.8);
+	height: 100px;
+	background-color: rgba(90, 14, 14, 0.5);
+	display: flex;
+}
+footer p {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
 }
