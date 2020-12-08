@@ -74,10 +74,10 @@ a {
 .mesaWinners .contain {
 	text-align: center;
 	margin: 0 50px 0 50px;
-	background-color: white;
+	background-color: black;
 }
 .contain {
-	background-color: white;
+	background-color: black;
 }
 .mesaWinners .contain h1 {
 	font-size: 300%;
@@ -95,7 +95,7 @@ a {
 .fa-angle-right {
 	margin: 30px 15px;
 	display: flex;
-	color: black;
+	color: white;
 	align-items: center;
 	transition: all 0.8s;
 	border-radius: 20%;
