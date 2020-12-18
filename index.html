@@ -77,14 +77,17 @@
     <!-- Section One (Picture of everyone) -->
 
     <div class="section group">
+        <!-- gave the Div section a height and a width and set a background to it -->
         <!-- Empty Space -->
     </div>
 
     <!-- Section Two -->
     <div class="section zoomedMesa">
-        <!-- set backgroun to the right image, add another div that has a h2 or h3 inside with the title and a p tag with the text. Then make it float right and up. Use width and length to make it fit the right size. -->
+        <!-- Divides the section into 12 parts -->
         <div class="row">
+            <!-- uses the first 7 parts to nothing  -->
             <div class="col-7"></div>
+            <!-- Used the other 5 parts for text which i centered and gave a background with low opacity -->
             <div class="innerText col-5">
                 <h2>What Is Mesa?</h2>
                 <p>MESA, Mathematics, Engineering, Science, and Acknowledgements, is an afterschool program that gives
@@ -97,8 +100,10 @@
 
     <!-- Section Three -->
     <div class="section mesaVideo">
+        <!-- Added a video that fit the whole hight which we set with css and the total width -->
         <video width="100%" height="100%" controls>
             <source src="./mesa_video.mp4" type="video/mp4">
+            <!-- In case you broswer can't play the video it will show this -->
             Your browser does not support the video tag.
         </video>
     </div>
@@ -107,16 +112,21 @@
 
     <!-- Section Four -->
     <div class="section mesaWinners">
+        <!-- Set the whole content of this section into a div called contain which we gave a backgroung of nothing(see through it) -->
         <div class="contain">
             <h1 style="color:white;">CALEXICO WINNERS</h1>
+            <!-- divided the section into 12 parts using Bootstrap -->
             <div class="row">
+                <!-- First section is used for the arrow going back which we set that if you clicked it will run a set function from our java script folder -->
                 <div class="col-1">
                     <i class="fas fa-angle-left fa-4x prev" onclick="prevImg()"></i>
                 </div>
+                <!-- The next 10 sections is used for the image itself which we called gallery_image and set it to a hight of 800px -->
                 <div class="col-10 gallery">
                     <img class="gallery_image" src="./Img/homepage_gallery_1.jpg" alt="Gallery Image" width="100%"
                         height="800px">
                 </div>
+                <!-- The last section is used for the next arrow which when clicked will run a function from our javascript file -->
                 <div class="col-1">
                     <i class="fas fa-angle-right fa-4x next" onclick="nextImg()"></i>
                 </div>
@@ -126,8 +136,11 @@
 
     <!-- Section Five -->
     <div class="section finalpic">
+        <!-- Divided the section into 12 parts using Bootstrap -->
         <div class="row">
+            <!-- The first 3 sections are empty and are just to position it in the center -->
             <div class="col-3"></div>
+            <!-- The next 6 sections are for text -->
             <div class="col-6">
                 <h2>Thank you <br>
                     Mr. Maganallanes
@@ -135,12 +148,15 @@
                     Mr. Garcia
                 </h2>
             </div>
+            <!-- The last 3 sections are also empty and are just to possition it in the center -->
             <div class="col-3"></div>
         </div>
     </div>
+    <!-- Start of footer -->
     <footer>
         <p>&copy; Yaneizy D. Rodriguez - Senior<br>CHS 21' - MIT 25' </p>
     </footer>
+    <!-- All the java script files we need, from Bootstrap and from our local file for this page -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
