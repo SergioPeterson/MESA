@@ -47,8 +47,17 @@ a {
 	background-size: 100% 100%;
 	background-image: url(../Img/Zoomed.jpg);
 }
+.zoomedMesa .row {
+	height: 100%;
+	display: flex;
+}
 .innerText {
-	padding: 10% 7% 12% 7%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* padding: 2px; */
+	height: 100%;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.6);
 	border-radius: 10%;
@@ -74,10 +83,10 @@ a {
 .mesaWinners .contain {
 	text-align: center;
 	margin: 0 50px 0 50px;
-	background-color: black;
+	background-color: #b41b1b;
 }
 .contain {
-	background-color: black;
+	background-color: #b41b1b;
 }
 .mesaWinners .contain h1 {
 	font-size: 300%;
@@ -93,7 +102,7 @@ a {
 }
 .fa-angle-left,
 .fa-angle-right {
-	margin: 30px 15px;
+	padding: 15px;
 	display: flex;
 	color: white;
 	align-items: center;
@@ -102,7 +111,7 @@ a {
 }
 .fa-angle-left:hover,
 .fa-angle-right:hover {
-	background-color: rgba(222, 33, 33, 0.8);
+	background-color: black;
 }
 .mySlides {
 	display: none;
@@ -126,6 +135,20 @@ a {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-image: url(../Img/HomeFinalImage.jpg);
+}
+.finalpic .col-6 {
+	padding: 10% 10%;
+	margin: 30px;
+	/* display: flex; */
+}
+.finalpic .col-6 h2 {
+	padding: 20px;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 15%;
 }
 footer {
 	width: 100%;

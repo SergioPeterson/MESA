@@ -10,6 +10,7 @@ const gallery_images1 = [
 ]
 var pos1 = 0
 image1.src = gallery_images1[pos1];
+const start_scroll_1 = '408';
 
 const next2 = document.querySelector('.next_2');
 const prev2 = document.querySelector('.prev_2');
@@ -21,7 +22,7 @@ const gallery_images2 = [
 ]
 var pos2 = 0
 image2.src = gallery_images2[pos2];
-
+const start_scroll_2 = '1005';
 
 next1.addEventListener('click', function(){
   if(pos1 == gallery_images1.length-1){
@@ -59,4 +60,29 @@ prev2.addEventListener('click', function(){
       image2.src = gallery_images2[pos2]
   }
 })
-
+// function sleep(ms) {
+//     return new Promise(resolve => setTimeout(resolve, ms));
+//  }
+// window.addEventListener('scroll', startScroll)
+ 
+// async function startScroll(){
+//     currentScroll = window.pageYOffset;
+//     while(currentScroll == start_scroll_1) {
+//         sleep(Time in ms).then(() => {
+//             await sleep(5000)
+//             console.log('Running...')
+//             })
+//     }
+// }
+// const start_scroll = '2484px';
+// 2484px 2300px <= x <= 2600px
+// function startScroll(){
+//     currentScoll = window.pageYOffset;
+//     while ((currentScoll - 100) >= 2300 || (currentScoll + 100) <= 2600) {
+//         setTimeout(1000);
+//         nextImg();
+//     }
+// }
+// next.addEventListener('click', nextImg)
+// prev.addEventListener('click', prevImg)
+// window.addEventListener('scroll', startScroll);
