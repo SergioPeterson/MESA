@@ -34,14 +34,6 @@ nav {
 	margin-bottom: 30px;
 }
 
-.section2 {
-	width: 100%;
-	height: 900px;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-image: url(../Img/AeroImage2.jpg);
-	margin-bottom: 30px;
-}
 .section3 {
 	width: 100%;
 	height: 750px;
@@ -60,27 +52,25 @@ nav {
 	background-color: rgba(0, 0, 0, 0);
 	text-align: center;
 }
-.section1 .col-6 {
+.section1 .col-6,
+.section3 .col-6 {
 	padding: 50px;
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 10%;
 }
 .section1_text,
-.section2_text,
 .section3_text {
 	background-color: rgba(0, 0, 0, 0);
 	text-align: center;
 	margin-bottom: 30px;
 }
 .section1_text .col-6,
-.section2_text .col-6,
 .section3_text .col-6 {
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 10%;
 	padding: 30px;
 }
 .section1_text p,
-.section2_text p,
 .section3_text p {
 	font-size: 110%;
 }
@@ -88,10 +78,10 @@ nav {
 .gallery .contain {
 	text-align: center;
 	margin: 0 50px 0 50px;
-	background-color: black;
+	background-color: #b41b1b;
 }
 .contain {
-	background-color: black;
+	background-color: #b41b1b;
 }
 .gallery .contain h1 {
 	font-size: 300%;
@@ -107,7 +97,7 @@ nav {
 }
 .fa-angle-left,
 .fa-angle-right {
-	margin: 30px 15px;
+	padding: 15px;
 	display: flex;
 	color: white;
 	align-items: center;
@@ -116,7 +106,7 @@ nav {
 }
 .fa-angle-left:hover,
 .fa-angle-right:hover {
-	background-color: rgba(222, 33, 33, 0.8);
+	background-color: black;
 }
 footer {
 	width: 100%;

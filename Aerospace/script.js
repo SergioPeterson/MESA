@@ -3,9 +3,9 @@ const prev = document.querySelector('.prev');
 const image = document.querySelector('.gallery_image');
 const gallery_images = [
     '../Img/AeroImage1.jpg',
-    '../Img/AeroImage2.jpg',
     '../Img/AeroImage3.jpg',
-    '../Img/AeroImage4.jpg'
+    '../Img/AeroImage4.jpg',
+    '../Img/AeroImage2.jpg'
 ]
 var pos = 0
 const start_scroll = '2484px';

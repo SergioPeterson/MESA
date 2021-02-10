@@ -2,11 +2,11 @@ const next = document.querySelector('.next');
 const prev = document.querySelector('.prev');
 const image = document.querySelector('.gallery_image');
 const gallery_images = [
-    '../Img/MITImage1.jpg',
     '../Img/MITImage2.jpg',
-    '../Img/MITImage3.jpg',
     '../Img/MITHacks.jpg',
-    '../Img/MITImage5.jpg'
+    '../Img/MITImage3.jpg',
+    '../Img/MITImage5.jpg',
+    '../Img/MITImage1.jpg'
 ]
 var pos = 0
 const start_scroll = '2484px';

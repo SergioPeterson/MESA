@@ -74,10 +74,10 @@ nav {
 .gallery .contain {
 	text-align: center;
 	margin: 0 50px 0 50px;
-	background-color: black;
+	background-color: #b41b1b;
 }
 .contain {
-	background-color: black;
+	background-color: #b41b1b;
 }
 .gallery .contain h1 {
 	font-size: 300%;
@@ -93,7 +93,7 @@ nav {
 }
 .fa-angle-left,
 .fa-angle-right {
-	margin: 30px 15px;
+	padding: 15px;
 	display: flex;
 	color: white;
 	align-items: center;
@@ -102,7 +102,7 @@ nav {
 }
 .fa-angle-left:hover,
 .fa-angle-right:hover {
-	background-color: rgba(222, 33, 33, 0.8);
+	background-color: black;
 }
 footer {
 	width: 100%;
